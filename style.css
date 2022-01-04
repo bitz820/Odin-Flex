@@ -32,9 +32,10 @@ a, text {
 
 .carousel {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row;
+    justify-content: center;
     align-items: center;
-    flex: 1;
+    ;
 }
 
 .carouseltitle {
